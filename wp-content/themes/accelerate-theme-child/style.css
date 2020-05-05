@@ -39,9 +39,49 @@ Text Domain:  accelerate-theme-child
 	font-size: 1.5em;
 }
 
-.read-more-link {
+p.read-more-link {
 	font-family: 'Montserrat';
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+    float: left;
+    
 }
+
+/* Case Studies Pg */
+
+aside.case-study-sidebar {
+    float: left;
+    width: 40%;
+    margin: 0 10 0 0;
+}
+
+aside.case-study-sidebar h5 {
+    color: #999;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.33333;
+    margin: 0 0 12px;
+}
+
+aside.case-study-sidebar h6 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0 0 50px;
+}
+
+.case-study-images {
+	float: right;
+    width: 500px;
+    /*clear: left;
+	display: inline; */
+}
+
+.pics {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
