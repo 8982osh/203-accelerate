@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying single case studies
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -34,9 +34,9 @@ get_header(); ?>
             
             <?php the_content(); ?>
 
-          <!-- <p class="read-more-link"><a href="<?php echo $link; ?>">Read More</a></p> -->
-
+          <p><strong><a href="<?php the_permalink(); ?>">Read More</a></strong></p>
           </aside>
+
             <div class="case-study-images">
               <div class="pics">
               <?php if($image_1) { 
