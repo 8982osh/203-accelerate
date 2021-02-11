@@ -46,7 +46,7 @@ get_header(); ?>
 
 <section class="recent-posts">
 	<div class="site-content">
-	  <div class="blog-posts">
+	  <div class="blog-post">
 	  	<h4>From the Blog!</h4>
 	  	<?php query_posts('posts_per_page=1'); ?>
 	  	<?php while ( have_posts() ) : the_post(); ?>
