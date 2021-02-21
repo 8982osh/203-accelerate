@@ -145,4 +145,79 @@ aside.case-study-sidebar h6 {
    color: #45ac9d;  
 }
 
+/* Changes to Ninja Contact Us form */
+
+
+/* Remove extra Contact Us title */
+.ninja-forms-form-title {
+    display: none !important;
+}
+ /* Hide default ninja contac us text */
+.ninja-forms-required-items {
+    display: none !important;
+}
+
+/* Remove astericks */
+.ninja-forms-req-symbol {
+    display: none !important;
+} 
+
+/* Namel ^ email chg font size label */
+
+#ninja_forms_field_1_label, #ninja_forms_field_2_label {
+  font-style: normal !important;
+}
+
+/* Resize text box labels */
+.ninja-forms-form .label-above label {
+    font-weight: normal !important;
+}
+
+/* Resize text boxes and aligh side by side */
+#ninja_forms_field_1_div_wrap, #ninja_forms_field_2_div_wrap {
+    display: inline-block !important;
+    width: 40% !important;
+}
+
+/* Addl space btwn email label */
+#ninja_forms_field_1_div_wrap {
+    padding-right: 15px !important;
+}
+
+/* Addl space brwn name ^ align email to the right */
+#ninja_forms_field_2_div_wrap {
+    padding-left: 15px !important;
+}
+
+/* Resice msg text area */
+#ninja_forms_field_3  {
+    width: 80% !important;
+}
+
+/* Move Send button */
+#nf_submit_1 {
+   float: right !important; 
+   margin-right: 190px !important;  
+   
+}
+
+/* Chg bg color for Send btn */
+input[type="button"],
+input[type="submit"] {
+    background: #45AC9D !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

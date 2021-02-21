@@ -708,3 +708,24 @@ a.button, a.button:link {
 		display: inline;
 	}
 }
+
+
+/* remove astericks */
+.ninja-forms-req-symbol {
+    display: none !important;
+}
+
+/* Changes to Ninja Contact Us from */
+
+/* email text box flush right */
+#ninja_forms_field_2 .ninja-forms-field .ninja-forms-req .email{
+    float: right;
+    width: 40px !important;
+}
+
+/* Move Send button, chg bg color */
+#nf_submit_1 {
+   float: right !important;
+   background: #008000 !important;
+   
+}
